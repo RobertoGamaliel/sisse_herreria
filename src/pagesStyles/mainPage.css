@@ -1,0 +1,59 @@
+.text-hover{
+    animation: decrecer .25s ease;
+    font-size: medium;
+    font-weight: 300;
+}
+
+.text-hover:hover{
+    animation: crecer .25s ease;
+    font-size: large;
+    font-weight: bold;
+}
+
+@keyframes crecer {
+    from{
+        font-size: medium;
+        font-weight: 300;
+    }
+    to{
+        font-size: large;
+        font-weight: bold;
+    }
+}
+@keyframes decrecer {
+    from{
+       font-size: large;
+        font-weight: bold; 
+    }
+    to{
+        font-size: medium;
+        font-weight: 300; 
+    }
+}
+
+
+.text-title{
+    font-size: 45px;
+}
+
+.form-cont{
+    width: 450px;
+}
+
+.image-round{width: 380px; height: 380px;}
+@media (max-width: 1400px) {
+    .image-round{width: 350px; height: 350px;}
+}
+
+@media (max-width: 1200px) {
+    .image-round{width: 320px; height: 320px;}
+}
+
+@media (max-width: 960px) {
+    .image-round{width: 290px; height: 290px;}
+}
+
+@media (max-width: 720px) {
+    .image-round{width: 300px; height: 300px;}
+}
+
